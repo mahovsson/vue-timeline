@@ -1,1 +1,2 @@
-# vue-timeline
+$npm install
+$npm run dev
