@@ -238,7 +238,7 @@ export default {
 			color: $base-font;
 		}
 		&__date {
-			font-size: 1.2em;
+			font-size: 1.2rem;
 			color: $second-font;
 			font-weight: 600;
 			text-align: center;
@@ -247,9 +247,12 @@ export default {
 			padding: 5px 10px;
 			margin-right: 5px;
 			background-color: $base-font;
-			font-size: 10px;
+			font-size: 0.8rem;
 			color: $base-background;
 			border-radius: 5px;
+			@media screen and (min-width: 1024px) {
+				font-size: 1rem;
+			}
 		}
 	}
 }
